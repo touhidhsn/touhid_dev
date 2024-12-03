@@ -39,13 +39,16 @@ export default function Experience2() {
                         href='#'
                         className='technology border border-1 rounded-3 p-3'>
                         <div className='d-flex align-items-center gap-2'>
-                          <img
-                            src='assets/imgs/home-page-2/experience/imprintlogo.webp'
-                            alt='zelio'
-                          />
+                          <h5 className='mb-1'>
+                            Imprint <br /> Dhaka LTD.
+                          </h5>
                           <div className='d-flex flex-column ms-2'>
-                            <h5 className='mb-1'>Imprint</h5>
-                            <span className='text-300'>2019 - Present</span>
+                            <p>
+                              Senior Designer
+                              <br />
+                              <span>Graphic Designer</span> <br />
+                              <span className='text-300'>2019 to present</span>
+                            </p>
                           </div>
                         </div>
                       </Link>
@@ -53,15 +56,14 @@ export default function Experience2() {
                         href='#'
                         className='technology border border-1 rounded-3 p-3'>
                         <div className='d-flex align-items-center gap-2'>
-                          <img
-                            src='assets/imgs/home-page-2/experience/fiverrlogo.png'
-                            alt='zelio'
-                          />
+                          <h5 className='mb-1'>Fiverr.</h5>
                           <div className='d-flex flex-column ms-2'>
-                            <h5 className='mb-1'>Fiverr</h5>
-                            <span className='text-300'>
-                              as a freelancer <br /> 2015 - 2020
-                            </span>
+                            <p>
+                              Frontend Developer
+                              <br />
+                              <span>React JS</span> <br />
+                              <span className='text-300'>2019-2022</span>
+                            </p>
                           </div>
                         </div>
                       </Link>
@@ -69,13 +71,29 @@ export default function Experience2() {
                         href='#'
                         className='technology border border-1 rounded-3 p-3'>
                         <div className='d-flex align-items-center gap-2'>
-                          <img
-                            src='assets/imgs/home-page-2/experience/OpenIT.png'
-                            alt='zelio'
-                          />
+                          <h5 className='mb-1'>Open IT</h5>
                           <div className='d-flex flex-column ms-2'>
-                            <h5 className='mb-1'>OpenIT</h5>
-                            <span className='text-300'>2018-2019</span>
+                            <p>
+                              Frontend Web developer
+                              <br />
+                              <span>WordPress</span> <br />
+                              <span className='text-300'>2018-2019</span>
+                            </p>
+                          </div>
+                        </div>
+                      </Link>
+                      <Link
+                        href='#'
+                        className='technology border border-1 rounded-3 p-3'>
+                        <div className='d-flex align-items-center gap-2'>
+                          <h5 className='mb-1'>Dewdrop</h5>
+                          <div className='d-flex flex-column ms-2'>
+                            <p>
+                              Frontend Web developer
+                              <br />
+                              <span>ReactJS</span> <br />
+                              <span className='text-300'>2022-2023</span>
+                            </p>
                           </div>
                         </div>
                       </Link>
