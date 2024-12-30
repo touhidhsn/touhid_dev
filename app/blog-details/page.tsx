@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function BlogDetails() {
   return (
     <>
-      <Layout headerStyle={2} footerStyle={2}>
+      <Layout>
         <div>
           <section className='section-details pt-130 pb-100'>
             <div className='container'>

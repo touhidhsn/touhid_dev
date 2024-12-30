@@ -17,12 +17,7 @@ interface LayoutProps {
   breadcrumbTitle?: string;
 }
 
-export default function Layout({
-  headerStyle,
-  footerStyle,
-  breadcrumbTitle,
-  children,
-}: LayoutProps) {
+export default function Layout({ breadcrumbTitle, children }: LayoutProps) {
   const [scroll, setScroll] = useState<boolean>(false);
   // Mobile Menu
   const [isMobileMenu, setMobileMenu] = useState<boolean>(false);
@@ -32,10 +27,6 @@ export default function Layout({
       ? document.body.classList.add('mobile-menu-active')
       : document.body.classList.remove('mobile-menu-active');
   };
-
-  // Search
-  const [isSearch, setSearch] = useState<boolean>(false);
-  const handleSearch = (): void => setSearch(!isSearch);
 
   // OffCanvas
   const [isOffCanvas, setOffCanvas] = useState<boolean>(false);
